@@ -1,0 +1,75 @@
+
+  
+    body {
+      background-image: url(hahaa.jpg);
+      background-size: cover;
+      backdrop-filter: blur(5px);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover
+      margin: 40px;
+    }
+
+    .form-container {
+      background-color: #D3D3D3;
+      padding: 30px;
+      border-radius: 12px;
+      width: 500px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .checkbox-group,
+    .radio-group {
+      margin-top: 5px;
+      display: inline-flex;
+    }
+
+    .checkbox-group label,
+    .radio-group label {
+      font-weight: normal;
+      margin-right: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #007bff;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+ 

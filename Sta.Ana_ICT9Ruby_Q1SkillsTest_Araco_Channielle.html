@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Random Cafe Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+         <!-- Logo -->
+        <div class="logo">
+            <img src="a_random_cafe.png" alt="Robotics Club Logo">
+            
+        </div>
+
+        <h1><b><u>The Random Cafe Application Form</u></b></h1>
+        <br>
+        <p> Welcome! Please fill out this form in order to <b>apply</b> a job in <i>The Random Cafe</i>.</p>
+        <br>
+
+        <form action="#" method="post">
+            <div class="form-section">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="grade">Years of Experience of working a cafe:</label>
+                <select id="grade" name="grade">
+                    <option value="7">2 years</option>
+                    <option value="8">4 years</option>
+                    <option value="9">5 years</option>
+                    <option value="10">Im new to this</option>
+                </select><br><br>
+            </div>
+
+            <div class="form-section">
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br><br>
+
+                <label>What are your skills?</label><br>
+                <input type="checkbox" id="coding" name="skills" value="Coding">
+                <label for="coding">Brewing coffee</label>
+                <input type="checkbox" id="design" name="skills" value="Design">
+                <label for="design">Taking Orders or provides customer service</label>
+                <input type="checkbox" id="electronics" name="skills" value="Electronics">
+                <label for="electronics">Cook</label><br><br>
+            </div>
+
+            <div class="form-section">
+                <label for="about">Tell us why you want to join:</label><br>
+                <textarea id="about" name="about" rows="4" cols="40"></textarea><br><br>
+            </div>
+
+            <div class="form-section">
+                <h3>Roles that we Offer:</h3>
+                <ul>
+                    <li>Barista</li>
+                    <li>Cashier/Waitstaff</li>
+                    <li> Chef/Cook</li>
+                </ul>
+
+                <h3>Helpful Links:</h3>
+                <ol>
+                    <li><a href="https://www.robotics.org">Robotics.org</a></li>
+                    <li><a href="https://www.firstinspires.org">FIRST Robotics</a></li>
+                </ol>
+            </div>
+
+            <div class="form-section">
+                <button type="submit">Submit Application</button>
+            </div>
+        </form>
+                
+    </div>
+        
+        <footer>
+            <p>&copy; 2025 A Random Cafe Application | Created by [Channielle Jean C. Araco| 9-Ruby]</p>
+        </footer>
+ 
+
+
+    </body>
+</html>
